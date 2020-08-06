@@ -1,0 +1,40 @@
+ol.education {
+  list-style-type: disc;
+  line-height: 80%;
+}
+img.profilePicture {
+  border-radius: 5%;
+  width: 300px;
+  height: 200px;
+}
+table.introduction {
+  border-spacing: 20px;
+}
+table.work_table {
+  background-color: grey;
+  border-style: hidden;
+  text-indent: 4px;
+}
+table.work_table > tbody {
+  border-spacing: 5px;
+  border-collapse: separate;
+  background-color: lightgray;
+  border-color: aquamarine;
+}
+thead.header {
+  background-color: darkgrey;
+}
+
+td.columnOne {
+  text-align: center;
+  font-family: monospace;
+}
+table.skills {
+  border-spacing: 10px;
+  border-collapse: collapse;
+}
+
+table.skills > tbody > tr > td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
