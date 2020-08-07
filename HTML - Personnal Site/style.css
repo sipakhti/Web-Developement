@@ -59,12 +59,3 @@ table.skills > tbody > tr > td {
 table.skills > tbody > tr > td:hover {
   background-color: darkgray;
 }
-
-td:hover {
-  background-color: rgb(80, 80, 80);
-  color: whitesmoke;
-}
-
-a:hover {
-  color: rgb(68, 51, 83);
-}
