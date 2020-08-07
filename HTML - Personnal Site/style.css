@@ -1,3 +1,20 @@
+body {
+  background-color: #eaf6f6;
+}
+
+hr {
+  background-color: transparent;
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 10px;
+  width: 5%;
+  border-color: rgba(58, 65, 62, 0.15);
+}
+
+h1,
+h3 {
+  color: #66bfbf;
+}
 ol.education {
   list-style-type: disc;
   line-height: 80%;
@@ -37,4 +54,17 @@ table.skills {
 table.skills > tbody > tr > td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+
+table.skills > tbody > tr > td:hover {
+  background-color: darkgray;
+}
+
+td:hover {
+  background-color: rgb(80, 80, 80);
+  color: whitesmoke;
+}
+
+a:hover {
+  color: rgb(68, 51, 83);
 }
