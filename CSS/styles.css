@@ -30,7 +30,9 @@ hr {
 div {
   margin: inherit;
 }
-
+.mointain {
+Width:70%;
+}
 div.top-contianer {
   position: relative;
   padding-top: 100px;
