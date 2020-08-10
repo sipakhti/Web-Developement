@@ -30,6 +30,9 @@ hr {
 div {
   margin: inherit;
 }
+.middle-container {
+  margin-top: 40px;
+}
 .mountain {
   width: 80%;
 }
