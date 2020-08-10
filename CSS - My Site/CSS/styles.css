@@ -45,12 +45,14 @@ div.top-contianer {
   position: absolute;
   right: 10%;
   top: 10%;
+  width: 20%;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 10%;
-  bottom: 50%;
+  bottom: 40%;
+  width: 20%;
 }
 
 img.computer-img {
