@@ -30,7 +30,12 @@ hr {
 div {
   margin: inherit;
 }
-
+.middle-container {
+  margin-top: 40px;
+}
+.mountain {
+  width: 80%;
+}
 div.top-contianer {
   position: relative;
   padding-top: 100px;
