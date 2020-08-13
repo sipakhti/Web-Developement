@@ -1,3 +1,4 @@
+/*********************************ELEMENT ATTRIBUTES************************************/
 body {
   margin: 0;
   text-align: center;
@@ -5,20 +6,29 @@ body {
   background-color: #acccc6;
 }
 h1 {
-  margin: 0;
+  margin: 100px auto 0 auto;
+  font-size: 5rem;
   font-family: 'Sacramento', cursive;
+}
+h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  color: #66bfbf;
 }
 
 h2,
 h3 {
   font-family: 'Montserrat', sans-serif;
 }
-p {
-  width: 70%;
-  display: inline-block;
-  margin: 0;
-  margin-bottom: 10px;
+h3,
+a {
+  color: #11999e;
 }
+
 hr {
   background-color: transparent;
   border-style: none;
@@ -30,15 +40,27 @@ hr {
 div {
   margin: inherit;
 }
-.middle-container {
-  margin-top: 40px;
+p {
+  color: #40514e;
 }
-.mountain {
-  width: 80%;
+
+/*********************************CLASS ATTRIBUTES************************************/
+.profile-pic {
+  margin-bottom: 50px;
 }
+h2.sub-title {
+  font-weight: normal;
+}
+
 div.top-contianer {
   position: relative;
   padding-top: 100px;
+  background-color: #acccc6;
+}
+
+.mountain {
+  max-width: 100%;
+  width: 80%;
 }
 
 .top-cloud {
@@ -54,26 +76,71 @@ div.top-contianer {
   bottom: 40%;
   width: 20%;
 }
+div.middle-container {
+  margin: 100px auto;
+}
 
 img.computer-img {
   border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+img.crosshair-img {
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
 }
 img.adjustable {
   width: 25%;
 }
+div.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn:active {
+  box-shadow: inset 0px -20px 20px 20px #28bbf3;
+}
 
 .btn {
-  font-weight: 900;
-  font-size: x-small;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   display: block;
+  width: fit-content;
+  margin: 50px auto 0;
+  background-color: #0f8dbf;
+  color: #eaf6f6;
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+  background-image: linear-gradient(360deg, #0780b1, #28bbf3);
 }
-.bottom-container {
-  font-size: x-small;
-  word-spacing: 10px;
+div.bottom-container {
+  background-color: #66bfbf;
+  display: flow-root;
 }
+a.footer-link {
+  color: #11999e;
+}
+
 .copyright {
-  font-size: xx-small;
+  line-height: 3;
+  color: #eaf6f6;
+  font-size: x-small;
+  font-weight: bold;
   display: block;
   width: auto;
   word-spacing: normal;
+}
+
+a.repository {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.attribution {
+  font-size: xx-small;
+  font-weight: 100;
 }
