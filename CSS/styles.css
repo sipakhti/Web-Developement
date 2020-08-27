@@ -3,15 +3,15 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  background-color: #acccc6;
+  font-size: 80%;
 }
 h1 {
   margin: 100px auto 0 auto;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Sacramento', cursive;
 }
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 0;
 }
 
@@ -45,53 +45,54 @@ p {
 }
 
 /*********************************CLASS ATTRIBUTES************************************/
-.profile-pic {
+img.profile-pic {
   margin-bottom: 50px;
 }
 h2.sub-title {
-  font-weight: normal;
+  font-weight: 400;
+  transform: scale(0.9);
 }
 
 div.top-contianer {
   position: relative;
   padding-top: 100px;
-  background-color: #acccc6;
+  background-color: #eaf6f6;
 }
 
-.mountain {
+img.mountain {
   max-width: 100%;
-  width: 80%;
 }
 
-.top-cloud {
+img.top-cloud {
   position: absolute;
   right: 10%;
   top: 10%;
-  width: 20%;
+  width: 10%;
 }
 
-.bottom-cloud {
+img.bottom-cloud {
   position: absolute;
   left: 10%;
   bottom: 40%;
-  width: 20%;
+  width: 10%;
 }
 div.middle-container {
   margin: 100px auto;
 }
 
 img.computer-img {
-  border-radius: 100%;
   float: left;
   margin-right: 30px;
 }
 img.crosshair-img {
-  border-radius: 100%;
   float: right;
   margin-left: 30px;
 }
 img.adjustable {
   width: 25%;
+}
+img.round {
+  border-radius: 100%;
 }
 div.skill-row {
   width: 50%;
@@ -100,11 +101,11 @@ div.skill-row {
   line-height: 2;
 }
 
-.btn:active {
+a.btn:active {
   box-shadow: inset 0px -20px 20px 20px #28bbf3;
 }
 
-.btn {
+a.btn {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -125,7 +126,7 @@ a.footer-link {
   color: #11999e;
 }
 
-.copyright {
+p.copyright {
   line-height: 3;
   color: #eaf6f6;
   font-size: x-small;
@@ -140,7 +141,7 @@ a.repository {
   font-weight: bold;
 }
 
-.attribution {
+div.attribution {
   font-size: 10px;
   font-weight: 100;
 }
